@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "dev-s3-bughawpulas"
     region         = "us-east-1"
-    key            = "apsg073198"
+    key            = "LockID"
     dynamodb_table = "dev-dynamodb-bughawpula"
     encrypt        = true
   }
