@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-s3-bughawpula"
+    bucket         = "dev-s3-bughawpulas"
     region         = "us-east-1"
     key            = "apsg073198"
     dynamodb_table = "dev-dynamodb-bughawpula"
